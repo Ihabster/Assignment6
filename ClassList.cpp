@@ -56,7 +56,7 @@ void List::print() {		// Prints out the array
 }
 void List::fillWithRandom() {	// Fills the array with random integers
 	for(int i = 0; i < listLength; i++){
-		list[i] = rand() % 100 + 1;
+		list[i] = rand() % 100;
 	}
 }
 
